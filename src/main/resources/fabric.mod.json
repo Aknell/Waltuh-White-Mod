@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "waltuhmod",
+  "version": "${version}",
+
+  "name": "Waltuh White Mod",
+  "description": "Jesse we need to cook",
+  "authors": [
+    "Aknell4"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "BY-SA-4.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.aknell.waltuhmod.WaltuhWhiteMod"
+    ],
+    "client": [
+      "net.aknell.waltuhmod.WaltuhWhiteModClient"
+    ]
+  },
+  "mixins": [
+    "waltuhmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
