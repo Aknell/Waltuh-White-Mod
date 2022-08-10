@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "waltuhmod:amphetamine"
+    },
+    "title": "First Steps",
+    "description": "Craft your first narcotic",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+  },
+  "parent": "waltuhmod:waltuhwhite",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "waltuhmod:amphetamine"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

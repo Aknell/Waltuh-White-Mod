@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "waltuhmod:crystal_meth"
+    },
+    "annouce_to_chat": false,
+    "show_toast": false,
+    "title": "Walter White",
+    "description": "Great things await you",
+    "frame": "task",
+    "background": "waltuhmod:textures/block/meth_shards.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "waltuhmod:methylamine"
+    },
+    "title": "Jesse we need to cook",
+    "description": "Craft the sought-after methylamine",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true
+  },
+  "parent": "waltuhmod:amphetamine",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "waltuhmod:methylamine"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
