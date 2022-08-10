@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "waltuhmod:methamphetamine"
+    }
+  ],
+  "result": {
+    "item": "waltuhmod:raw_meth",
+    "count": 9
+  }
+}

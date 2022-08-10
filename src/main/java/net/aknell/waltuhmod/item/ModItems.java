@@ -18,6 +18,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
     public static final Item METHAMPHETAMINE = registerItem("methamphetamine",
             new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
+    public static final Item CRYSTAL_METH = registerItem("crystal_meth",
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(WaltuhWhiteMod.MOD_ID, name), item);
