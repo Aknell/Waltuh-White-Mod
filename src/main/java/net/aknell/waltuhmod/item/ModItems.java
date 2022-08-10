@@ -8,9 +8,15 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item METHAMPHETAMINE = registerItem("methamphetamine",
+    public static final Item AMPHETAMINE = registerItem("amphetamine",
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
+    public static final Item PHENYLACETONE = registerItem("phenylacetone",
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
+    public static final Item METHYLAMINE = registerItem("methylamine",
             new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
     public static final Item RAW_METH = registerItem("raw_meth",
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
+    public static final Item METHAMPHETAMINE = registerItem("methamphetamine",
             new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
 
     private static Item registerItem(String name, Item item) {

@@ -1,6 +1,9 @@
 {
-  "item.waltuhmod.methamphetamine": "Methamphetamine",
+  "item.waltuhmod.amphetamine": "Amphetamine",
+  "item.waltuhmod.phenylacetone": "Phenylacetone",
+  "item.waltuhmod.methylamine": "Methylamine",
   "item.waltuhmod.raw_meth": "Raw Meth",
+  "item.waltuhmod.methamphetamine": "Methamphetamine",
 
   "block.waltuhmod.meth_glass": "Meth Glass",
 
