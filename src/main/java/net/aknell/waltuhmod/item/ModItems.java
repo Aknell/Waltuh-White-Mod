@@ -10,6 +10,8 @@ public class ModItems {
 
     public static final Item METHAMPHETAMINE = registerItem("methamphetamine",
             new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
+    public static final Item RAW_METH = registerItem("raw_meth",
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(WaltuhWhiteMod.MOD_ID, name), item);
