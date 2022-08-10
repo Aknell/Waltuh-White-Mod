@@ -1,5 +1,6 @@
 package net.aknell.waltuhmod;
 
+import net.aknell.waltuhmod.block.ModBlocks;
 import net.aknell.waltuhmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class WaltuhWhiteMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
