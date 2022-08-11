@@ -12,13 +12,13 @@ public class ModItems {
     public static final Item METH_SHARDS = registerItem("meth_shards",
             new ModDrinkItem(new FabricItemSettings()));
     public static final Item AMPHETAMINE = registerItem("amphetamine",
-            new ModDrinkItem(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(1).rarity(Rarity.RARE).food(ModFoodComponents.AMPHETAMINE)));
+            new ModDrinkItem(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(8).rarity(Rarity.RARE).food(ModFoodComponents.AMPHETAMINE)));
     public static final Item PHENYLACETONE = registerItem("phenylacetone",
-            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(1)));
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(8)));
     public static final Item METHYLAMINE = registerItem("methylamine",
-            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(1)));
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(8)));
     public static final Item RAW_METH = registerItem("raw_meth",
-            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(1).rarity(Rarity.RARE)));
+            new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(16).rarity(Rarity.RARE)));
     public static final Item METHAMPHETAMINE = registerItem("methamphetamine",
             new Item(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).rarity(Rarity.RARE).food(ModFoodComponents.METHAMPHETAMINE)));
 
