@@ -1,0 +1,19 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": {
+        "require": {
+          "Potion": "minecraft:thick"
+        }
+      }
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:methylamine"
+  }
+}

@@ -15,6 +15,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block METH_GLASS = registerBlock("meth_glass", new Block(FabricBlockSettings.of(Material.GLASS).strength(4f).requiresTool().nonOpaque()), ModItemGroup.WALTUH_WHITE);
+    public static final Block SYNTHESIZER = registerBlock("synthesizer", new SynthesizerBlock(FabricBlockSettings.of(Material.METAL).strength(4f)), ModItemGroup.WALTUH_WHITE);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

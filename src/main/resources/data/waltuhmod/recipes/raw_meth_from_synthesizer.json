@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "waltuhmod:synthesizer",
   "ingredients": [
     {
       "item": "waltuhmod:phenylacetone"
@@ -8,7 +8,7 @@
       "item": "waltuhmod:methylamine"
     }
   ],
-  "result": {
+  "output": {
     "item": "waltuhmod:raw_meth"
   }
 }

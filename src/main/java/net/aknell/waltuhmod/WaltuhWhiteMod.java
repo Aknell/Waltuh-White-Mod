@@ -1,7 +1,10 @@
 package net.aknell.waltuhmod;
 
 import net.aknell.waltuhmod.block.ModBlocks;
+import net.aknell.waltuhmod.block.entity.ModBlockEntities;
 import net.aknell.waltuhmod.item.ModItems;
+import net.aknell.waltuhmod.recipe.ModRecipes;
+import net.aknell.waltuhmod.screen.ModScreenHandlers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +18,11 @@ public class WaltuhWhiteMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModBlockEntities.registerAllBlockEntities();
+		ModRecipes.registerRecipes();
+
+		ModScreenHandlers.registerAllScreenHandlers();
 
 	}
 }

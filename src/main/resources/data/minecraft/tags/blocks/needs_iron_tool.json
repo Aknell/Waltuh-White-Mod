@@ -1,6 +1,7 @@
 {
   "replace": "false",
   "values": [
-    "waltuhmod:meth_glass"
+    "waltuhmod:meth_glass",
+    "waltuhmod:synthesizer"
   ]
 }

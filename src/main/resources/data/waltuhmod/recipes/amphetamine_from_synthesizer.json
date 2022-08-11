@@ -1,0 +1,19 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": {
+        "require": {
+          "Potion": "minecraft:mundane"
+        }
+      }
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:amphetamine"
+  }
+}

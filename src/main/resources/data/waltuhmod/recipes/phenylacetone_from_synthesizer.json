@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "waltuhmod:synthesizer",
   "ingredients": [
     {
       "item": "waltuhmod:amphetamine"
@@ -8,7 +8,7 @@
       "item": "minecraft:rotten_flesh"
     }
   ],
-  "result": {
+  "output": {
     "item": "waltuhmod:phenylacetone"
   }
 }
