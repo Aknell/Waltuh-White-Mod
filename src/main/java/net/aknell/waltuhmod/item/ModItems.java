@@ -9,8 +9,6 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item METH_SHARDS = registerItem("meth_shards",
-            new ModDrinkItem(new FabricItemSettings()));
     public static final Item AMPHETAMINE = registerItem("amphetamine",
             new ModDrinkItem(new FabricItemSettings().group(ModItemGroup.WALTUH_WHITE).maxCount(8).rarity(Rarity.RARE).food(ModFoodComponents.AMPHETAMINE)));
     public static final Item PHENYLACETONE = registerItem("phenylacetone",
