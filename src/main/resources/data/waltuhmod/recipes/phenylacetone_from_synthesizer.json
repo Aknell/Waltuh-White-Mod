@@ -2,10 +2,10 @@
   "type": "waltuhmod:synthesizer",
   "ingredients": [
     {
-      "item": "waltuhmod:amphetamine"
+      "item": "waltuhmod:phenylacetic_acid"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "waltuhmod:acetic_anhydride"
     }
   ],
   "output": {

@@ -1,0 +1,19 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": {
+        "require": {
+          "Potion": "minecraft:thick"
+        }
+      }
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:toluene"
+  }
+}

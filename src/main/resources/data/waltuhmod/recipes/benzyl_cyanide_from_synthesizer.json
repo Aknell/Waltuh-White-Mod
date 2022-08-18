@@ -1,0 +1,14 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "waltuhmod:benzyl_chloride"
+    },
+    {
+      "item": "waltuhmod:sodium_cyanide"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:benzyl_cyanide"
+  }
+}

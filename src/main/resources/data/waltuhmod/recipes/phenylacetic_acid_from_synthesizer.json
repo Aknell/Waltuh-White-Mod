@@ -1,0 +1,14 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "waltuhmod:benzyl_cyanide"
+    },
+    {
+      "item": "waltuhmod:hydrochloric_acid"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:phenylacetic_acid"
+  }
+}

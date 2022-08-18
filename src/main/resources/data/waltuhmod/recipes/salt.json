@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "minecraft:potion",
+    "data": {
+      "require": {
+        "Potion": "minecraft:water"
+      }
+    }
+  },
+  "result": {
+    "item": "waltuhmod:salt",
+    "count": 16
+  }
+}

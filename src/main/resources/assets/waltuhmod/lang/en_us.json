@@ -1,4 +1,18 @@
 {
+  "item.waltuhmod.chlorine": "Chlorine",
+  "item.waltuhmod.hydrochloric_acid": "Hydrochloric Acid",
+  "item.waltuhmod.salt": "Salt",
+  "item.waltuhmod.saline": "Saline",
+  "item.waltuhmod.methane": "Methane",
+  "item.waltuhmod.hydrogen_cyanide": "Hydrogen Cyanide",
+  "item.waltuhmod.sodium_hydroxide": "Sodium Hydroxide",
+  "item.waltuhmod.sodium_cyanide": "Sodium Cyanide",
+  "item.waltuhmod.toluene": "Toluene",
+  "item.waltuhmod.benzyl_chloride": "Benzyl Chloride",
+  "item.waltuhmod.benzyl_cyanide": "Benzyl Cyanide",
+  "item.waltuhmod.phenylacetic_acid": "Phenylacetic Acid",
+  "item.waltuhmod.acetic_anhydride": "Acetic Anhydride",
+
   "item.waltuhmod.amphetamine": "Amphetamine",
   "item.waltuhmod.phenylacetone": "Phenylacetone",
   "item.waltuhmod.methylamine": "Methylamine",

@@ -1,0 +1,19 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "waltuhmod:salt"
+    },
+    {
+      "item": "minecraft:potion",
+      "data": {
+        "require": {
+          "Potion": "minecraft:water"
+        }
+      }
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:sodium_hydroxide"
+  }
+}

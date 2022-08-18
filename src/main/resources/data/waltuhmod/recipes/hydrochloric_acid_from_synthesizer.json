@@ -1,0 +1,19 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": {
+        "require": {
+          "Potion": "minecraft:mundane"
+        }
+      }
+    },
+    {
+      "item": "waltuhmod:chlorine"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:hydrochloric_acid"
+  }
+}

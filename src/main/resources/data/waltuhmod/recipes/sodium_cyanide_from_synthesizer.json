@@ -1,0 +1,14 @@
+{
+  "type": "waltuhmod:synthesizer",
+  "ingredients": [
+    {
+      "item": "waltuhmod:hydrogen_cyanide"
+    },
+    {
+      "item": "waltuhmod:sodium_hydroxide"
+    }
+  ],
+  "output": {
+    "item": "waltuhmod:sodium_cyanide"
+  }
+}
