@@ -60,12 +60,12 @@ public class ModVillagers {
         TradeOfferHelper.registerVillagerOffers(DEALER, 2,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 12),
-                            new ItemStack(ModItems.AMPHETAMINE, 2),
+                            new ItemStack(Items.EMERALD, 4),
+                            new ItemStack(ModItems.PHENYLACETONE, 2),
                             16, 3, 0.05f
                     )));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 16),
+                            new ItemStack(Items.EMERALD, 5),
                             new ItemStack(ModItems.METHYLAMINE, 2),
                             7, 2, 0.05f
                     )));
@@ -74,13 +74,12 @@ public class ModVillagers {
         TradeOfferHelper.registerVillagerOffers(DEALER, 3,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 12),
-                            new ItemStack(Items.GOLD_INGOT, 8),
-                            new ItemStack(ModItems.RAW_METH, 4),
+                            new ItemStack(ModItems.METHAMPHETAMINE, 2),
+                            new ItemStack(Items.EMERALD, 8),
                             8, 4, 0.05f
                     )));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 9),
+                            new ItemStack(Items.EMERALD, 5),
                             new ItemStack(ModBlocks.SYNTHESIZER, 1),
                             16, 3, 0.05f
                     )));
@@ -89,8 +88,8 @@ public class ModVillagers {
         TradeOfferHelper.registerVillagerOffers(DEALER, 4,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 24),
                             new ItemStack(ModBlocks.METH_GLASS, 1),
+                            new ItemStack(Items.EMERALD, 24),
                             16, 3, 0.05f
                     )));
                 }
@@ -98,15 +97,8 @@ public class ModVillagers {
         TradeOfferHelper.registerVillagerOffers(DEALER, 5,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 48),
-                            new ItemStack(Items.DIAMOND, 7),
-                            new ItemStack(ModItems.METHAMPHETAMINE, 4),
-                            16, 3, 0.05f
-                    )));
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 20),
+                            new ItemStack(ModItems.CRYSTAL_METH, 5),
                             new ItemStack(Items.DIAMOND, 2),
-                            new ItemStack(ModItems.CRYSTAL_METH, 16),
                             16, 3, 0.05f
                     )));
                 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "waltuhmod:item/sodium_hydroxide"
+    "layer0": "waltuhmod:item/hydrochloric_acid"
   }
 }
