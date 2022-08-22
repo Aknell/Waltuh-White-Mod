@@ -28,25 +28,11 @@ public class SynthesizerBlock extends BlockWithEntity implements BlockEntityProv
         super(settings);
     }
 
-    private static VoxelShape SHAPE_N = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
-    private static VoxelShape SHAPE_S = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
-    private static VoxelShape SHAPE_E = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
-    private static VoxelShape SHAPE_W = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        switch (state.get(FACING)) {
-            case NORTH:
-                return SHAPE_N;
-            case SOUTH:
-                return SHAPE_S;
-            case EAST:
-                return SHAPE_E;
-            case WEST:
-                return SHAPE_W;
-            default:
-                return SHAPE_N;
-        }
+        return SHAPE;
     }
 
     @Nullable
