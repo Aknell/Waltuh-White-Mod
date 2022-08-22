@@ -1,5 +1,19 @@
 {
   "variants": {
-    "": { "model": "waltuhmod:block/synthesizer" }
+    "facing=north": {
+      "model": "waltuhmod:block/synthesizer"
+    },
+    "facing=south": {
+      "model": "waltuhmod:block/synthesizer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "waltuhmod:block/synthesizer",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "waltuhmod:block/synthesizer",
+      "y": 90
+    }
   }
 }

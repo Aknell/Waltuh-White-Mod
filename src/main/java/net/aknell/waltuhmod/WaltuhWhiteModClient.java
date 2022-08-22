@@ -19,6 +19,7 @@ public class WaltuhWhiteModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.METH_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SYNTHESIZER, RenderLayer.getTranslucent());
 
         HandledScreens.register(ModScreenHandlers.SYNTHESIZER_SCREEN_HANDLER, SynthesizerScreen::new);
     }
